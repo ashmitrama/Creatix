@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    #hero {
+        height: 100%;
+        width: 100%;
+
+        nav {
+            height: 10%;
+            width: 80%;
+            background-color: black;
+            margin-left: 10%;
+            margin-top: 2%;
+            border-radius: 50px;
+        }
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+
+    a {
+        text-decoration: none;
+        color: rgb(156, 156, 156);
+        font-size: 1rem;
+        font-family: "Stack Sans Notch", sans-serif;
+        font-optical-sizing: auto;
+        //   font-weight: <weight>;
+        font-style: normal;
+    }
+}
+
+a:hover {
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+#logo {
+    height: 150px;
+    width: auto;
+}
+
